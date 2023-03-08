@@ -1,0 +1,8 @@
+.rating {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rating img:not(:last-child){
+    margin-right: 6px;
+}

@@ -1,0 +1,20 @@
+* {
+    font-family: "montserrat";
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.tags-list {
+    justify-content: flex-start;
+    color: white;
+    background-color: #FF6060;
+    border-radius: 10px;
+    padding: 5px 15px;
+    text-align: center;
+    margin-right: 5px;
+}

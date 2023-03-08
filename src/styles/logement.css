@@ -1,0 +1,25 @@
+.location-logement, .title-logement{
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+}
+
+.title-logement{
+    font-size: 36px;
+    margin: 0;
+}
+
+.location-logement {
+    font-size: 18px;
+}
+
+.bloc-right {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+.container-logement {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}

@@ -1,0 +1,65 @@
+.house-card-list {
+    display: flex;
+    background-color: #F6F6F6;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+.house-card {
+    display: flex;
+    height: 240px;
+    width: 100%;
+    margin: 10px 20px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.house-picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.house-text {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    width: 90%;
+    bottom: 0;
+}
+
+.logement-card {
+    width: calc(33% - 40px);
+    margin: 10px 20px;
+}
+
+
+@media screen and (max-width: 699px) {
+    .house-card-list {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .logement-card{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .house-card{
+        margin: 0;
+    }
+
+    .banner-picture{
+        height: 120px;
+    }
+
+
+
+}

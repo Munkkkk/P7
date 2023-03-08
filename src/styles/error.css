@@ -1,0 +1,44 @@
+.error_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 30px;
+}
+
+.error_text p {
+  font-size: 36px;
+  color: #FF6060;
+}
+
+strong {
+  font-size: 288px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #FF6060;
+}
+
+.bodyError p {
+  font-size: 36px;
+  color: #FF6060;
+}
+
+.error_text a {
+  padding: 70px;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #FF6060;
+}
+
+@media screen and (max-width: 829px) {
+    strong {
+      font-size: 96px;
+    }
+    .error_text p {
+      font-size: 18px;
+      text-align: center;
+    }
+    .error_text a {
+      font-size: 14px;
+    }
+}

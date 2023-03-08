@@ -1,0 +1,24 @@
+.footer {
+    background-color: black;
+    height: 130px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.footer-text {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.footer-img {
+    display: flex;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
