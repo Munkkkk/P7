@@ -1,0 +1,17 @@
+.host {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .host img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .host p {
+    width: 80px;
+    color: #FF6060;
+    text-align: -webkit-right;
+    margin-right: 20px;
+  }

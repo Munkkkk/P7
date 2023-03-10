@@ -13,13 +13,111 @@
 }
 
 .bloc-right {
+    margin-top: 20px;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
+    flex-direction: column;
   }
 
 .container-logement {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+}
+
+.description {
+    display: flex;
+    margin: 10px;
+    color: red;
+  }
+  
+  .description div {
+    margin: 0 5px;
+    flex: 1 1 0px;
+  }
+
+  .text div, .equipements ul {
+    background-color: #F6F6F6;
+  }
+  
+  .texte li {
+    list-style: none;
+  }
+
+  .equipements, .text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+  }
+
+  h2 {
+    padding: 15px 20px;
+    background-color: #FF6060;
+    border-radius: 10px;
+    color: white;
+    -webkit-margin-before: 0;
+            margin-block-start: 0;
+    -webkit-margin-after: 0;
+            margin-block-end: 0;
+  }
+  
+  .container-all {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  @media screen and (max-width: 500px) {
+    .host img {
+      width: 52px;
+      height: 52px;
+    }
+  }
+
+  @media screen and (max-width: 699px) {
+    body {
+      margin: 0 20px;
+    }
+    .host p {
+      width: 50px;
+    }
+    .content {
+      margin: 0;
+      flex-direction: column;
+    }
+
+    .container-all{
+        display: block;
+    }
+    .content b {
+      font-size: 18px;
+    }
+    .content p {
+      font-size: 14px;
+    }
+    .description div {
+      margin: 5px 0px;
+    }
+    .bloc-right {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+    
+    .description {
+      flex-direction: column;
+    }
+    .equipements, .text {
+      width: 100%;
+      margin: 20px 0;
+    }
+    svg {
+      width: 15px;
+      height: 15px;
+      overflow: visible;
+      margin: 0 8px;
+    }
+    h2 {
+      font-size: 13px;
+      padding: 5px 10px;
+    }
 }

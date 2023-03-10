@@ -18,3 +18,16 @@
     text-align: center;
     margin-right: 5px;
 }
+
+@media screen and (max-width: 699px) {
+.tags ul {
+    justify-content: flex-start;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    flex-wrap: wrap;
+  }
+  .tags li {
+    width: 95px;
+  }
+}

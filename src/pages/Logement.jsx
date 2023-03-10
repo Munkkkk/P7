@@ -28,7 +28,8 @@ function Logement(){
     return <div>
       <Slider 
           pictures={logement.pictures} />
-          <div className="container-logement">
+          <div className="container-all">
+            <div className="container-logement">
             <div className="bloc-left">
               <p className="title-logement">{logement.title}</p>
               <p className="location-logement">{logement.location}</p>
@@ -38,10 +39,13 @@ function Logement(){
           </div>
           <div className="bloc-right">
           <Host host={logement.host}/>
-          <Rating rating={logement.rating} />
+          <Rating rating={logement.rating} className='stars-rating' /> 
           </div>
-        <Collapse texte={logement.description} title='Description'/>
-        <Collapse texte={listEquipements} title='Equipements' />
+          </div>
+          <div className="description">
+        <Collapse texte={logement.description} title='Description' className='text'/>
+        <Collapse texte={listEquipements} title='Equipements' className='equipements'/>
+        </div>
     </div>
 }
 

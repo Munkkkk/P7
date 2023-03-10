@@ -6,3 +6,11 @@
 .rating img:not(:last-child){
     margin-right: 6px;
 }
+
+
+@media screen and (max-width: 699px) {
+.rating {
+    display: flex;
+    align-items: center;
+  }
+}
