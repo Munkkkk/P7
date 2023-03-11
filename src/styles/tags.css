@@ -29,5 +29,6 @@
   }
   .tags li {
     width: 95px;
+    margin-top: 5px;
   }
 }

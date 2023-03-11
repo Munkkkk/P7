@@ -8,14 +8,13 @@ import '../styles/rating.css'
 function Rating({ rating }) {
     const stars = [1, 2, 3, 4, 5];
     return(
-        <div className='rating'>
-            {stars.map((level)=>
-            rating >= level ? (
+        <div className='rating' key={rating}>
+            {stars.map((level)=> rating >= level ? (
                 <img src={starsempty} alt='starsempty'/>
                 ) : (
                 <img src={starsfull} alt='starsfull'/>
-            )
-            )}
+            ))
+            } 
         </div>
     )
 }       
